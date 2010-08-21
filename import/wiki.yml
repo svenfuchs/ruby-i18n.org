@@ -1,0 +1,132 @@
+---
+  title: Wiki
+  body: |
+    <h3>I18n</h3>
+    <ul>
+      <li><a href="http://github.com/svenfuchs/i18n">I18n</a> &#8211; Internationalization library for Ruby</li>
+      <li><a href="http://gemcutter.org/gems/i18n">I18n on Gemcutter</a></li>
+      <li><a href="http://groups.google.com/group/rails-i18n">Mailinglist</a></li>
+    </ul>
+    <h3>R18n</h3>
+    <ul>
+      <li><a href="http://github.com/ai/r18n">r18n</a> &#8211; I18n solution for Ruby (not identical with the I18n gem) &#8211; (Andrey Sitnik)</li>
+      <li><a href="http://github.com/ai/r18n/tree/master/r18n-rails">r18n-rails</a> &#8211; wrapper for R18n Rails <span class="caps">API</span> and R18n core libraries (Andrey Sitnik)</li>
+    </ul>
+    <h3>GetText</h3>
+    <ul>
+      <li><a href="http://github.com/grosser/fast_gettext" title="grosser's fast_gettext at master - GitHub">fast_gettext</a> &#8211; super fast and efficient Ruby GetText reimplementation (Michael Grosser)</li>
+      <li><a href="http://github.com/grosser/gettext_i18n_rails" title="grosser's gettext_i18n_rails at master - GitHub">gettext_i18n_rails</a> &#8211; fast_gettext integration with Rails (Michael Grosser)</li>
+      <li><a href="http://github.com/mutoh/gettext" title="mutoh's gettext at master - GitHub">gettext</a> &#8211; Ruby-GetText-Package, Localization(L10n) library and tools (Masao Mutoh)</li>
+      <li><a href="http://github.com/mutoh/gettext_rails" title="mutoh's gettext_rails at master - GitHub">gettext_rails</a> &#8211; Ruby on Rails (&gt;= 2.3) localization support with Ruby-GetText (Masao Mutoh)</li>
+    </ul>
+    <h3>Docs, Tutorials and Guides</h3>
+    <ul>
+      <li><a href="http://guides.rubyonrails.org/i18n.html" title="Rails Internationalization (I18n) API">Rails Guide: Rails Internationalization (I18n) <span class="caps">API</span></a></li>
+      <li><a href="http://rdoc.info/projects/svenfuchs/i18n" title="rdoc.info :: i18n">Rdoc <span class="caps">API</span> docs</a></li>
+      <li><a href="http://www.artweb-design.de/2008/7/18/the-ruby-on-rails-i18n-core-api" title="The Ruby on Rails I18n core api - artweb design">The Ruby on Rails I18n core api</a> Initial blog article (Sven Fuchs)</li>
+      <li><a href="/wiki/translations-available-in-ruby-on-rails">Translations available in Rails</a> (Iain Hecker)</li>
+      <li><a href="http://railscasts.com/episodes/138-i18n" title="Railscasts - I18n">Railscast on Rails 2.2 I18n</a>, great screencast by Ryan Bates</li>
+    </ul>
+    <h3>Howtos &amp; Tips</h3>
+    <ul>
+      <li>How to do <a href="http://almosteffortless.com/2008/07/21/simple-localization-in-rails-22/" title="Simple Localization in Rails 2.2 -  almost effortless">Simple Localization in Rails 2.2</a> (Trevor Turk)</li>
+      <li><a href="http://www.railway.at/articles/2008/08/10/localizing-rails">Localizing Rails (with demo application)</a> (Clemens Kofler)</li>
+      <li><a href="http://www.diegocarrion.com/2008/10/24/rocking-your-application-with-rails-22-i18n-support/" title="Rocking your application with Rails 2.2 i18n support | Diego Carrion">Rocking your application with Rails 2.2 i18n support</a> (Diego Carrion)</li>
+      <li><a href="http://iain.nl/2008/09/translating-activerecord/">Translating ActiveRecord</a> (Iain Hecker)</li>
+      <li><a href="http://www.mouseoverstudio.com/blog/?p=114" title="Plugin in_place_edit agora com suporte a i18n">Plugin in_place_edit agora com suporte a i18n</a> (Diego Carrion, Portuguese)</li>
+      <li><a href="http://www.mouseoverstudio.com/blog/?p=112" title="Formatando datas no Rails, agora com suporte a i18n">Formatando datas no Rails, agora com suporte a i18n</a> (Diego Carrion, Portuguese)</li>
+      <li><a href="http://www.mouseoverstudio.com/blog/?p=106" title="I18n on Rails =&gt; mudanças no helper date_select">I18n on Rails =&gt; mudanças no helper date_select</a> (Diego Carrion, Portuguese)</li>
+      <li><a href="http://www.mouseoverstudio.com/blog/?p=105" title="Rocking mit i18n em Rails en 3 pasos">Rocking mit i18n em Rails en 3 pasos</a> (Diego Carrion, Portuguese)</li>
+      <li><a href="http://www.minerama.net/2008/8/8/rails-i18n-catucando" title="Catucando no i18n do rails">Catucando no i18n do rails</a> (João Paulo Lins, Portuguese)</li>
+      <li><a href="http://groups.google.com/group/rails-i18n/msg/3387b84f8589b7b1">Gibberish-style Syntax sugar</a> (Pietro Ferrari)</li>
+      <li><a href="/wiki/model-translations">Model translations</a></li>
+      <!-- <li><a href="/wiki/how-to-encode-the-current-locale-in-the-url">How to encode the current locale in the <span class="caps">URL</span></a></li> -->
+      <li><a href="http://www.icoretech.org/2008/09/13/i18n-url-based-breadcrumbs-in-rails" title="i18n url based breadcrumbs in rails">i18n url based breadcrumbs</a> (Claudio Poli)</li>
+    </ul>
+    <h3>Other articles</h3>
+    <ul>
+      <li><a href="http://www.artweb-design.de/2008/7/18/finally-ruby-on-rails-gets-internationalized" title="Finally. Ruby on Rails gets internationalized - artweb design">History and motivation of the Rails I18n project</a> (Sven Fuchs)</li>
+      <li><a href="http://www.artweb-design.de/2008/9/6/the-future-of-i18n-in-ruby-on-rails-railsconf-europe-2008" title="The Future of I18n in Ruby on Rails - RailsConf Europe 2008 - artweb design">The Future of I18n in Ruby on Rails</a> &#8211; talk at RailsConf Europe 2008 (Sven Fuchs)</li>
+    </ul>
+    <h3>Demos</h3>
+    <ul>
+      <li><a href="http://github.com/clemens/i18n_demo_app/tree/master">Demo application</a> (Clemens Kofler)</li>
+      <li><a href="http://github.com/akitaonrails/i18n_demo_app/tree/master">Clemens&#8217; demo application, translated to Brazilian Portuguese</a> (Fabio Akita)</li>
+      <li><a href="http://github.com/tokumine/i18n_demo_app/tree/master">Clemens&#8217; demo application, made fully i18n, includes English, Brazilian Portuguese (from Akita), Japanese and Czech.</a> Support for other languages. (Simon Tokumine)</li>
+      <li><a href="http://github.com/karmi/rails_i18n_demo_app/tree/master">Micro demo application, includes Czech translations</a> (Karel Minarik)</li>
+    </ul>
+    <h3>Gems and Plugins</h3>
+    <ul>
+      <li><a href="http://github.com/josevalim/localized_templates" title="josevalim's localized_templates at master &mdash; GitHub">Templates localization for Rails 2.2</a> (José Valim)</li>
+      <li><a href="http://github.com/iain/http_accept_language" title="iain's http_accept_language at master &mdash; GitHub">Parse and use the <span class="caps">HTTP</span> Accept Language header</a> (Iain Hecker)</li>
+      <li><a href="http://github.com/iain/i18n_label" title="iain's i18n_label at master &mdash; GitHub">Rails helper: Translated labels in forms</a> (Iain Hecker)</li>
+      <li><a href="http://www.railway.at/articles/2008/08/07/localized-dates-plugin">localized_dates: Easy localization of dates and times</a> (Clemens Kofler)</li>
+      <li><a href="http://github.com/yaroslav/russian">Russian gem</a> &#8211; includes custom backend with context/standalone month names support, lambda-defined pluralization rules, and a couple of Rails hacks as well as Russian-specific methods (Yaroslav Markin)</li>
+      <li><a href="http://github.com/yar/simple_loc_compat" title="yar's simple_loc_compat at master &mdash; GitHub">simple_loc_compat</a> &#8211; compatibility layer to <a href="http://simple-localization.arkanis.de/" title="Welcome - Collaboa">SimpleLocalization</a> (Yar)</li>
+      <li><a href="http://github.com/japetheape/i18n_helper" title="japetheape's i18n_helper at master &mdash; GitHub">i18n_helper</a> &#8211; available_locales and set_locale helper (Jaap van der Meer)</li>
+      <li><a href="http://github.com/raul/translate_routes" title="raul's translate_routes at master &mdash; GitHub">Translate routes</a> &#8211;  translate URLs, includes url generation helpers (Raul Murciano)</li>
+      <li><a href="http://github.com/kwi/i18n_routing" title="kwi's i18n_routing at master - GitHub">Translate routes</a> &#8211; I18n routing module for Rails 2.3.x and Rails 3 (Guillaume Luccisano)</li>
+      <li><a href="http://github.com/svenfuchs/routing-filter" title="svenfuchs's routing-filter at master &mdash; GitHub">Routing filter</a> &#8211; filter in/output of the routing system (Sven Fuchs)</li>
+      <li><a href="http://github.com/karmi/localized_country_select" title="karmi's localized_country_select at master &mdash; GitHub">LocalizedCountrySelect</a> &#8211; localized &lt;select&gt; menu with countries, storing country codes in the database (Karel Minarik)</li>
+      <li><a href="http://github.com/iain/i18n_helper" title="iain's i18n_helper at master &mdash; GitHub">Rails i18n_helper</a> &#8211; Makes the default Rails helpers i18n compatible (Iain Hecker)</li>
+      <li><a href="http://github.com/amatsuda/i18n_generators" title="amatsuda's i18n_generators at master &mdash; GitHub">I18n generators</a> &#8211; generates scaffold locale files for Rails, model and attribute names (Akira Matsuda)</li>
+      <li><a href="http://github.com/olkeene/locales_switch" title="olkeene's locales_switch at master &mdash; GitHub">locales_switch</a> &#8211; Provide a simple way to add locales switching in your application (Oleg Zhurbiy)</li>
+      <li><a href="http://github.com/dcrec1/activerecord_i18n_defaults" title="dcrec1's activerecord_i18n_defaults at master &mdash; GitHub">activerecord_i18n_defaults</a> &#8211; define translations for common attributes used in more that one model (Diego Carrion)</li>
+      <li><a href="http://www.yotabanana.com/hiki/ruby-locale-rails.html" title="Ruby-Locale for Ruby on Rails - YotaLab Storage">Ruby-Locale</a> &#8211; Autodetect client locale, l10n routes, action/fragment cache and view templates (Masao Mutoh)</li>
+      <li><a href="http://github.com/clemens/later_dude">later_dude</a> &#8211; Simple calendar helper with i18n support (Clemens Kofler)</li>
+      <li><a href="http://github.com/kipcole9/rails-i18n-translation-inheritance-helper" title="kipcole9's rails-i18n-translation-inheritance-helper at master - GitHub">rails-i18n-translation-inheritance-helper</a> &#8211; locale inheritance/fallback to more general locales for missing translations (Kip Cole)</li>
+      <li><a href="http://github.com/graysky/translator" title="graysky's translator at master - GitHub">Translator</a> &#8211; easy-to-use key conventions, catch missing keys in tests, simple locale fallbacks (Mike Champion)</li>
+      <li><a href="http://github.com/iain/i18n_yaml" title="iain's i18n_yaml at master &mdash; GitHub">Store translations in <span class="caps">YAML</span> files</a> (Iain Hecker) (deprecated)</li>
+      <li><a href="http://www.railway.at/articles/2009/05/03/new-plugin-delocalize">delocalize: Convert localized data (numbers, dates, times) into regular Ruby objects</a> (Clemens Kofler)</li>
+      <li><a href="http://github.com/clemens/delocalize">delocalize</a> &#8211; Convert localized data (numbers, dates, times) into regular Ruby objects (Clemens Kofler)</li>
+      <li><a href="http://github.com/ulbrich/localized_scaffold">localized_scaffold</a> scaffolding generator that produces localized views and controller flashes (Jan Ulbrich)</li>
+      <li><a href="http://github.com/jodosha/click-to-globalize">click-to-globalize</a> &#8211; inplace editing of translations (Luca Guidi)</li>
+    </ul>
+    <h3>Model translations &#38; tools</h3>
+    <ul>
+      <li><a href="http://github.com/joshmh/globalize2">Globalize2</a> &#8211; the next incarnation of Globalize (Joshua Harvey)</li>
+      <li><a href="http://github.com/iain/translatable_columns">TranslatableColumns</a> &#8211; have multiple languages of the same attribute in a model (Iain Hecker)</li>
+      <li><a href="http://github.com/glennpow/localized_record">localized_record</a> &#8211; allows records to have localized attributes without any modifications to the database (Glenn Powell)</li>
+      <li><a href="http://github.com/janne/model_translations">model_translations</a> &#8211; Minimal implementation of Globalize2 style model translations (Jan Andersson)</li>
+      <li><a href="http://github.com/joshmh/globalize2_versioning">globalize2_versioning</a> &#8211; acts_as_versioned style versioning for Globalize2 (Joshua Harvey)</li>
+      <li><a href="http://github.com/ZenCocoon/i18n_multi_locales_validations">i18n_multi_locales_validations</a> &#8211; multi-locales attributes validations to validates attributes from Globalize2 translations models (Sébastien Grosjean)</li>
+      <li><a href="http://github.com/svenfuchs/globalize2-demo">Globalize2 Demo App</a> &#8211; demo application for Globalize2 (Sven Fuchs)</li>
+      <li><a href="http://gist.github.com/120867">migrate_from_globalize1</a> &#8211; migrate model translations from Globalize1 to Globalize2 (Tomasz Stachewicz)</li>
+      <li><a href="http://github.com/astropanic/easy_globalize2_accessors">easy_globalize2_accessors</a> &#8211; easily access (read and write) globalize2-translated fields (astropanic, Tomasz Stachewicz)</li>
+      <li><a href="http://github.com/bsamman/globalize2-easy-translate">globalize2-easy-translate</a> &#8211; adds methods to easily access or set translated attributes to your model (bsamman)</li>
+      <li><a href="http://github.com/alvarezrilla/batch_translations">batch_translations</a> &#8211; allow saving multiple Globalize2 translations in the same request (Jose Alvarez Rilla)</li>
+    </ul>
+    <h3>GetText related</h3>
+    <ul>
+      <li><a href="http://github.com/mutoh/gettext_activerecord" title="mutoh's gettext_activerecord at master - GitHub">gettext_activerecord</a> &#8211; ActiveRecord (&gt;= 2.2) localization using Ruby-GetText (Masao Mutoh)</li>
+      <li><a href="http://www.yotabanana.com/hiki/ruby-gettext-howto.html">Ruby-GetText-Package Howto</a> (Masao Mutoh)</li>
+      <li><a href="http://www.yotabanana.com/hiki/ruby-gettext-rails.html">Ruby-GetText for Ruby on Rails Docs</a> (Masao Mutoh)</li>
+      <li><a href="http://www.yotabanana.com/hiki/ruby-gettext-rails-migration.html">Howto: Migrate rails-2.1.x (gettext-1.93.0) to rails-2.3.2 (gettext-2.0.0)</a> (Masao Mutoh)</li>
+      <li><a href="http://github.com/grosser/gettext_test_log" title="grosser's gettext_test_log at master - GitHub">gettext_test_log</a> &#8211; logs translations during tests so that dynamic translations can be found through Gettext (Michael Grosser)</li>
+      <li><a href="http://github.com/grosser/gettext_i18n_rails_example" title="grosser's gettext_i18n_rails_example at master - GitHub">gettext_i18n_rails_example</a> &#8211; fast_gettext example application with gettext_i18n_rails and gettext_test_log (Michael Grosser)</li>
+    </ul>
+    <h3>Code Snippets</h3>
+    <ul>
+      <li><a href="http://gist.github.com/276191">Storing locale language names and retrieving them</a> (Henrik Nyh)</li>
+      <!-- <li><a href="/wiki/wikipages/available-locales">available_locales</a> (Claudio Poli)</li> -->
+    </ul>
+    <h3>Tools</h3>
+    <ul>
+      <li><a href="http://github.com/newsdesk/translate" title="newsdesk's translate at master - GitHub">translate</a> &#8211; Rails plugin that provides a web interface for translating your application (Newsdesk)</li>
+      <li><a href="http://github.com/svenfuchs/rails-i18n/tree/master/tools/Rails%20I18n.tmbundle" title="tools/Rails I18n.tmbundle at master from svenfuchs's rails-i18n - GitHub">Rails I18n Textmate bundle</a> &#8211; Textmate bundle that helps with extracting translations from your source (Sven Fuchs)</li>
+      <li><a href="http://techblog.floorplanner.com/2008/09/16/converting-a-rails-application-from-gettext-to-i18n" title="Floorplanner Tech Blog  &raquo; Blog Archive &raquo; Converting a Rails application from Gettext to I18n">Gettext to Rails I18n api converter</a> &#8211; helps converting an existing application from Gettext to I18n (Jaap van der Meer)</li>
+    </ul>
+    <h3>Translations</h3>
+    <ul>
+      <li><a href="http://github.com/svenfuchs/rails-i18n/tree/master/rails/locale">Rails locale data</a> &#8211; repository for collecting locale data for Rails (Sven Fuchs)</li>
+    </ul>
+    <h3>Services</h3>
+    <ul>
+      <li><a href="http://99translations.com" title="99translations">99translations</a> &#8211; hosted webservice for sharing and maintaining translations</li>
+    </ul>
+    <h3>Other resources</h3>
+    <ul>
+      <li><a href="http://www.youtube.com/watch?v=OXxUF_N-3-M" title="YouTube - Globalize 2 - Interview with Joshua Harvey">Globalize 2: Interview with Joshua Harvey</a> (Joshua Harvey), used in <a href="http://www.artweb-design.de/2008/9/6/the-future-of-i18n-in-ruby-on-rails-railsconf-europe-2008" title="The Future of I18n in Rails - RailsConf Europe 2008 - artweb design">&#8220;The Future of I18n in Rails&#8221; at RailsConf Eu 2008</a></li>
+      <li><a href="/wiki/official-ruby-i18n-project-hymn">&#8220;Official&#8221; Ruby I18n Project Hymn</a> &#8211; Painkiller (Judas Priest)</li>
+      <!-- <li><a href="/wiki/wikipages/official-ruby-i18n-project-hymn">&#8220;Official&#8221; Ruby I18n Project Hymn</a> &#8211; Painkiller (Judas Priest)</li> -->
+    </ul>

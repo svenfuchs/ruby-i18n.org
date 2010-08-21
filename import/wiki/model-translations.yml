@@ -1,0 +1,6 @@
+---
+  title: Model translations
+  body: |
+    <p><a href="http://github.com/joshmh/globalize2">Globalize2</a> will implement model translations in a slick and unobtrusive way.</p>
+    <p>Also there&#8217;s a <a href="http://gist.github.com/4837">snippet on Gist</a> by Karmi for how to easily do model translations with Gibberish. This could be adopted, too.</p>
+    <p><a href="http://iain.nl/2008/09/plugin-translatable_columns/">translatable_columns</a> is a plugin which works backend independent, and integrates nicely with I18n.</p>
