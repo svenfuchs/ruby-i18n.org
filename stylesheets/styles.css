@@ -1,0 +1,453 @@
+body {
+  padding: 0 0 40px 0; 
+  margin: 0 0 20px 0;
+  background: #eee;
+}
+
+html, body, h1, h2, h3, table, ul, ol, fieldset, p, input, textarea {
+  font-family: Helvetica, Arial, sans-serif;
+	color: #444;
+}
+
+#container {
+  margin: 0 40px 0 40px;
+  padding: 10px 40px 20px 40px;
+  background: #fff;
+  border-top: 5px solid #999;
+  position: relative;
+  min-width: 920px;
+}
+
+#main {
+  min-width: 640px;
+  min-height: 400px;
+  padding-right: 30%;
+}
+
+#main h3 {
+  font-size: 14px;
+}
+
+#sidebar {
+	position: absolute;
+  top: 0px; 
+	right: 20px;
+  padding-top: 12px;
+  width: 24%;
+}
+
+#header h1 {
+	float: left;
+  margin: 20px 0px 20px 40px;
+  padding: 0;
+  font-size: 26px;
+  line-height: 1;
+}
+
+#header h1 a {
+  color: #000;
+}
+
+#header h1 .subtitle {
+  color: #c00;
+}
+
+#header ul {
+	float: right;
+	list-style-type: none;
+  padding: 0;
+  margin: 26px 40px 0px 0px;
+}
+#header li {
+	float: left;
+	margin-left: 12px;
+}
+
+#main h1 {
+  margin: 30px 0 5px;
+  font-size: 26px;
+  color: #c00;
+}
+
+#main h2 {
+  margin: 30px 0 5px;
+  font-size: 20px;
+  color: #c00;
+}
+
+#main h3 {
+  color: #c00;
+}
+
+#sidebar h2 {
+  font-size: 16px;
+}
+
+#sidebar h2:first-child {
+  margin-top: 30px;
+	line-height: 24px;
+}
+
+#sidebar h3 {
+  font-size: 14px;
+	margin-bottom: 0px;
+}
+
+p, li, td {
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.meta {
+  font-size: 12px;
+  color: #aaa !important;
+}
+
+.wiki.meta {
+	margin-top: 48px;
+}
+
+p sup {
+  font-size: 60%;
+}
+
+p.footnote {
+  font-size: 12px;
+  font-style: italic;
+}
+
+p[id=fn1] {
+  border-top: 1px solid #bbb;
+  padding-top: 10px;
+  margin-top: 30px;
+}
+
+ul, ol {
+  margin: 10px 0 20px;
+  padding-left: 30px;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+a {
+  color: #c00;
+}
+
+h2 .links {
+  font-size: 60%;
+}
+
+a img {
+  border: none;
+}
+
+pre {
+  padding: 10px; margin: 20px 0;
+  background-color: #eee;
+}
+
+code {
+  font: 12px Consolas, Monaco, "Courier New", monospace;
+  /* color: #007EA5; */
+  color: #444;
+  line-height: 1.3;
+}
+
+pre code {
+  /* color: #fff; */
+}
+
+ul.posts {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+p.banner {
+  text-align: center;
+}
+
+.flash {
+	font-size: 16px;
+	font-weight: bold;
+	color: #444;
+	height: 48px !important;
+	margin: 0 !important;
+	line-height: 48px;
+	text-align: center;
+	border-bottom: 2px solid #ddd;
+}
+#flash-notice {
+	background-color: #ffff66 !important;
+}
+#flash-error {
+	color: white !important;
+	font-weight: normal;
+	background-color: #c00 !important;
+}
+
+/** secondary content **/
+
+#sidebar ul {
+  margin: 0 0 20px;
+  padding: 0;
+  list-style: none;
+}
+
+#sidebar li {
+  margin-bottom: 10px;
+  line-height: 1.2;
+}
+
+#sidebar li .meta {
+  font-size: 12px;
+}
+
+/** table styles **/
+
+table {
+  font-size: 18px;
+  border-collapse: collapse;
+  background: #fff;
+  width: 100%;
+}
+
+th {
+  text-align: left;
+  font-size: 70%;
+}
+
+th, td {
+  padding: 10px;
+}
+
+tr {
+  border-bottom: 1px solid #ddd;
+}
+
+tr.odd th, tr.odd td {
+  background-color: #EDF6FF;
+}
+
+/** form styles **/
+
+#container form {
+  margin: 20px 0;
+  padding: 10px;
+  background: #eee;
+  color: #555;
+  border-top: 5px solid #aaa;
+}
+
+#container.field {
+  padding: 10px;
+}
+
+#container .controls {
+  padding: 10px;
+  clear: both;
+}
+
+#container label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #999;
+  padding: 2px;
+}
+
+#container fieldset {
+  padding: 5px;
+  border: none;
+}
+
+#container fieldset legend {
+  font-size: 18px;
+  font-weight: bold;
+  background: #ddd;
+  color: #555;
+  margin: 0; padding: 5px 10px;
+}
+
+/** entries **/
+div.entry {
+  margin-bottom: 30px;
+}
+
+.links {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+.links li {
+	float: left;
+	margin-left: 0px;
+}
+.links li:before {
+	content: " Â· ";
+}
+.links li:first-child {
+	margin-left: 0px;
+}
+.links li:first-child:before {
+	content: "";
+}
+.links {
+  display: block;
+  zoom: 1; /* gives layout to ie? */
+}
+.links:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+* html .links {
+  height: 1%;
+}
+
+/** comments **/
+#comment_form {
+	padding-left: 0px;
+	border-bottom: 0px;
+	margin-bottom: 0px;
+}
+#comment_form input[type="text"] {
+	font-size: 14px;
+	height: auto !important;
+	padding: 2px 5px !important;
+	border: 1px solid #aaa;
+}
+#comment_form textarea {
+	width: 98%;
+	padding: 5px !important;
+	font-size: 14px;
+  font-family: Helvetica, Arial, sans-serif;
+	border: 1px solid #aaa;
+}
+
+#comments ol,
+#comments li,
+.comment {
+	border: 0px !important;
+	margin: 0px !important;
+	padding: 0px !important;
+}
+.comment {
+  font-family: Helvetica, Arial, sans-serif;
+  padding-left: 50px;
+  position: relative;
+}
+.comment h4 {
+  font-size: 14px;
+	margin: 10px 0px 0px 0px;
+}
+#comments li:first-child h4 {
+	margin-top: 20px;
+}
+.comment:last-of-type {
+  border-bottom: none;
+}
+.comment .info {
+  font-size: 12px;
+  color: #888;
+}
+
+
+
+#footer {
+	padding-left: 220px;
+	padding-bottom: 9px;
+}
+#footer div {
+	float: left;
+	width: 25%;	
+}
+#footer h4 {
+	margin-bottom: 18px;
+}
+#footer ul {
+	list-style-type: none;
+	margin-left: 0px;
+}
+#copyright {
+	float: left;
+	clear: both;
+	color: #888;
+	margin-left: 40px;
+	font-size: 11px;
+}
+#feeds {
+	float: right;
+	list-style-type: none;
+	margin-right: 40px;
+}
+#feeds li {
+	float: left;
+	margin-left: 12px;
+	font-size: 11px;
+}
+
+/* FORM */
+
+fieldset {
+	border-width: 0px;
+}
+input[type=text],
+input[type=password],
+textarea {
+	border: 1px solid #888;
+}
+input[type=text],
+input[type=password] {
+	height: 20px;
+	padding: 0 4px;
+	margin: -2px 12px -2px 0;
+}
+input[type=text].wide,
+input[type=password].wide {
+	width: 80%;
+}
+textarea {
+	width: 80%;	
+	height: 270px;
+	padding: 3px 3px;
+	margin: -2px 0;
+}
+label {
+	display: block;
+	width: 100px;
+	float: left;
+	clear: both;
+}
+label.inline {
+	display: inline;
+	float: none;
+	clear: none;
+	padding-right: 12px;
+}
+.clearing {
+  display: block;
+  zoom: 1; /* gives layout to ie? */
+}
+.clearing:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+* html .clearing {
+  height: 1%;
+}
+
+p.buttons {
+	margin-left: 100px;
+}
+.hint {
+	color: #aaa;
+	font-size: 11px;
+}

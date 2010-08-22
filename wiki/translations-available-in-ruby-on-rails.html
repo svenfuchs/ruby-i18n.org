@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link href="/stylesheets/styles.css" media="screen" rel="stylesheet" type="text/css" />
+    <title>Rails I18n</title>
+  </head>
+  <body>
+    <div id="header" class="clearing">
+      <h1>
+        <a href="/">Ruby I18n</a> :
+        <span class="subtitle">Internationalization for Ruby</span>
+      </h1>
+      <ul id="sections">
+        <li class="item"><a href="/" id="show_section">Home</a></li>
+        <li class="item"><a href="/wiki" id="show_section">Wiki</a></li>
+      </ul>
+    </div>
+    <div id="container">
+      <div id="main">
+        <div id="wikipage_20" class="entry clearing">
+          <div class="content">
+            <p><span class="caps">YAML</span> List of all translations currently available in Rails</p>
+<h3>ActionPack</h3>
+<pre>
+en-US:
+  number:
+    # Used in number_with_delimiter()
+    # These are also the defaults for 'currency', 'percentage', 'precision', and 'human'
+    format:
+      # Sets the separator between the units, for more precision (e.g. 1.0 / 2.0 == 0.5)
+      separator: "."
+      # Delimets thousands (e.g. 1,000,000 is a million) (always in groups of three)
+      delimiter: ","
+      # Number of decimals, behind the separator (1 with a precision of 2 gives: 1.00)
+      precision: 3
+
+    # Used in number_to_currency()
+    currency:
+      format:
+        # Where is the currency sign? %u is the currency unit, %n the number (default: $5.00)
+        format: "%u%n"
+        unit: "$"
+        # These three are to override number.format and are optional
+        separator: "."
+        delimiter: ","
+        precision: 2
+
+    # Used in number_to_percentage()
+    percentage:
+      format:
+        # These three are to override number.format and are optional
+        # separator:
+        delimiter: ""
+        # precision:
+
+    # Used in number_to_precision()
+    precision:
+      format:
+        # These three are to override number.format and are optional
+        # separator:
+        delimiter: ""
+        # precision:
+
+    # Used in number_to_human_size()
+    human:
+      format:
+        # These three are to override number.format and are optional
+        # separator:
+        delimiter: ""
+        precision: 1
+
+  # Used in distance_of_time_in_words(), distance_of_time_in_words_to_now(), time_ago_in_words()
+  datetime:
+    distance_in_words:
+      half_a_minute: "half a minute"
+      less_than_x_seconds:
+        one:  "less than 1 second"
+        many: "less than {{count}} seconds"
+      x_seconds:
+        one:  "1 second"
+        many: "{{count}} seconds"
+      less_than_x_minutes:
+        one:  "less than a minute"
+        many: "less than {{count}} minutes"
+      x_minutes:
+        one:  "1 minute"
+        many: "{{count}} minutes"
+      about_x_hours:
+        one:  "about 1 hour"
+        many: "about {{count}} hours"
+      x_days:
+        one:  "1 day"
+        many: "{{count}} days"
+      about_x_months:
+        one:  "about 1 month"
+        many: "about {{count}} months"
+      x_months:
+        one:  "1 month"
+        many: "{{count}} months"
+      about_x_years:
+        one:  "about 1 year"
+        many: "about {{count}} years"
+      over_x_years:
+        one:  "over 1 year"
+        many: "over {{count}} years"
+
+  activerecord:
+    errors:
+      template:
+        header:
+          one:   "1 error prohibited this {{model}} from being saved"
+          other:  "{{count}} errors prohibited this {{model}} from being saved"
+        # The variable :count is also available
+        body: "There were problems with the following fields:"
+</pre>
+
+<h3>ActiveRecord</h3>
+<pre>
+en-US:
+  activerecord:
+    errors:
+      # The values :model, :attribute and :value are always available for interpolation
+      # The value :count is available when applicable. Can be used for pluralization.
+      messages:
+        inclusion: "is not included in the list"
+        exclusion: "is reserved"
+        invalid: "is invalid"
+        confirmation: "doesn't match confirmation"
+        accepted: "must be accepted"
+        empty: "can't be empty"
+        blank: "can't be blank"
+        too_long: "is too long (maximum is {{count}} characters)"
+        too_short: "is too short (minimum is {{count}} characters)"
+        wrong_length: "is the wrong length (should be {{count}} characters)"
+        taken: "has already been taken"
+        not_a_number: "is not a number"
+        greater_than: "must be greater than {{count}}"
+        greater_than_or_equal_to: "must be greater than or equal to {{count}}"
+        equal_to: "must be equal to {{count}}"
+        less_than: "must be less than {{count}}"
+        less_than_or_equal_to: "must be less than or equal to {{count}}"
+        odd: "must be odd"
+        even: "must be even"
+        # Append your own errors here or at the model/attributes scope.
+
+      models:
+        # Overrides default messages
+
+      attributes:
+        # Overrides model and default messages.
+</pre>
+
+<h3>ActiveSupport</h3>
+<pre>
+en-US:
+  date:
+    formats:
+      # Use the strftime parameters for formats.
+      # When no format has been given, it uses default.
+      # You can provide other formats here if you like!
+      default: "%Y-%m-%d"
+      short: "%b %d"
+      long: "%B %d, %Y"
+
+    day_names: [Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday]
+    abbr_day_names: [Sun, Mon, Tue, Wed, Thu, Fri, Sat]
+
+    # Don't forget the nil at the beginning; there's no such thing as a 0th month
+    month_names: [~, January, February, March, April, May, June, July, August, September, October, November, December]
+    abbr_month_names: [~, Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec]
+    # Used in date_select and datime_select.
+    order: [ :year, :month, :day ]
+
+  time:
+    formats:
+      default: "%a, %d %b %Y %H:%M:%S %z"
+      short: "%d %b %H:%M"
+      long: "%B %d, %Y %H:%M"
+    am: "am"
+    pm: "pm"
+
+  # Used in array.to_sentence.
+  support:
+    array:
+      sentence_connector: "and"
+</pre>
+
+          </div>
+        </div>
+      </div>
+      <div id="sidebar">
+        <h2>Projects</h2>
+        <h3>Ruby I18n gem</h3>
+        <p>
+          <a href="http://github.com/svenfuchs/i18n">GitHub repository</a><br>
+          <a href="http://i18n.lighthouseapp.com/projects/14947-ruby-i18n">Lighthouse tracker</a>
+        </p>
+        <h3>Rails I18n</h3>
+        <p>
+          <a href="http://github.com/svenfuchs/rails-i18n">GitHub repository</a><br>
+          <a href="http://i18n.lighthouseapp.com/projects/14948-rails-i18n">Lighthouse tracker</a>
+        </p>
+        <h2>Community</h2>
+        <p>
+          <a href="http://groups.google.com/group/rails-i18n">Rails I18n Google Group</a>
+        </p>
+      </div>
+    </div>
+
+    <div id="footer" class="clearing">
+    </div>
+    <p id="copyright">
+      Powered by <a href="http://adva-cms.org">adva cms</a>.
+      Theme heavily inspired by <a href="http://labs.reevoo.com">labs.reevoo.com</a>
+    </p>
+    <!-- <ul id="feeds">
+      <li><a href="http://rails-i18n.org/wiki.atom">Entries feed</a></li>
+      <li><a href="http://rails-i18n.org/wiki/comments.atom">Comments feed</a></li>
+    </ul> -->
+  </body>
+</html>
+
